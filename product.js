@@ -1,11 +1,9 @@
 const categories = {
-  "Patches": "images/patches",
-  "Borders": "images/borders",
   "Laces": "images/laces",
-  "Boutique Items": "images/boutique"
+  "Patches": "images/patches",
+  "Batches": "images/batches"
 };
-
-const maxImages = 50;
+const maxImages = 200;
 const container = document.getElementById("product-sections");
 
 for (const [title, path] of Object.entries(categories)) {
